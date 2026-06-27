@@ -4,7 +4,7 @@ use Flarum\Extend;
 use Tapao\CustomLandingPage\LandingPageMiddleware;
 
 return [
-    (new Extend\Middleware('web'))
+    (new Extend\Middleware('forum'))
         ->add(LandingPageMiddleware::class),
 
     (new Extend\Settings())

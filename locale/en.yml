@@ -6,9 +6,9 @@ tapao-custom-landing-page:
       guests_only_help: >
         When enabled, logged-in users bypass the landing page and see the normal forum.
         Install fof/direct-links for dedicated /login and /register pages, or use the
-        {{ login_url }} and {{ register_url }} template variables in your HTML.
+        '{{ login_url }}' and '{{ register_url }}' template variables in your HTML.
       html_label: Landing Page HTML
       html_help: >
         Paste your full HTML document here (including <!DOCTYPE html> and <html> tags).
-        Available template variables: {{ forum_title }}, {{ forum_url }},
-        {{ login_url }}, {{ register_url }}, {{ year }}.
+        Available template variables: '{{ forum_title }}', '{{ forum_url }}',
+        '{{ login_url }}', '{{ register_url }}', '{{ year }}'.
