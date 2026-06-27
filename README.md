@@ -17,6 +17,8 @@ A Flarum extension that serves a **fully custom HTML page** at the root path `/`
 
 ```bash
 composer require tapao/custom-landing-page
+php flarum migrate
+php flarum cache:clear
 ```
 
 Then enable the extension in your Flarum admin panel.
